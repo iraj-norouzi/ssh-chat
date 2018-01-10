@@ -1,0 +1,6 @@
+#!/bin/bash
+ cd Downloads
+ wget -c https://github.com/shazow/ssh-chat/releases/download/v1.6/ssh-chat-linux_amd64.tgz
+ tar -xvf ssh-chat-linux_amd64.tgz
+ cd ssh-chat/
+ ./ssh-chat
